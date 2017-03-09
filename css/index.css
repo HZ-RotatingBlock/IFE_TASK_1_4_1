@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+.view{
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:400px;
+	height:200px;
+	background-color:#ccc;
+	-o-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	overflow:hidden;
+}
+.round_left,.round_right{
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-color:#fc0;
+	border-radius:50%;
+}
+.round_left{
+	top:-50px;
+	left:-50px;
+}
+.round_right{
+	right:-50px;
+	bottom:-50px;
+}
